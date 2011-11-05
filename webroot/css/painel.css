@@ -1,0 +1,5 @@
+.actions { padding: 5px 10px }
+.actions a { margin-right: 20px }
+
+.input { margin-left: 50px }
+label { display: block; float: none; text-align: left }

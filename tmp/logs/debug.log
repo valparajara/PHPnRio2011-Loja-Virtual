@@ -1,0 +1,6 @@
+2011-11-05 14:14:23 Notice: Notice (1024): Please change the value of 'Security.salt' in app/config/core.php to a salt value specific to your application in [/var/www/2011/phpnrio/1.3/cake/libs/debugger.php, line 694]
+2011-11-05 14:14:23 Notice: Notice (1024): Please change the value of 'Security.cipherSeed' in app/config/core.php to a numeric (digits only) seed value specific to your application in [/var/www/2011/phpnrio/1.3/cake/libs/debugger.php, line 698]
+2011-11-05 16:21:09 Notice: Notice (8): Undefined index: nome in [/var/www/2011/phpnrio/1.3/app/views/produtos/view.ctp, line 9]
+2011-11-05 16:35:24 Notice: Notice (8): Undefined index: prefix in [/var/www/2011/phpnrio/1.3/app/controllers/app_controller.php, line 6]
+2011-11-05 17:00:01 Notice: Notice (8): Undefined property: UsersController::$Model in [/var/www/2011/phpnrio/1.3/app/controllers/app_controller.php, line 14]
+2011-11-05 17:07:56 Notice: Notice (8): Undefined property: ScaffoldView::$Auth in [/var/www/2011/phpnrio/1.3/app/views/layouts/painel.ctp, line 21]
