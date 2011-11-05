@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Produto - Lojinha do CakePHP</title>
+	
+	<meta name="description" content="..." />
+	<meta name="author" content="Thiago Belem, PHP'n Rio 2011" />
+	
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans|Chewy" />
+	<link rel="stylesheet" href="css/estilo.css" />	
+</head>
+<body>
+	<div class="container">
+		<div class="hero-unit">
+			<h1><a href="index.html">Lojinha do CakePHP</a></h1>
+			<p>Gadgets, canecas, camisetas e bottoms pra você, fã do <strong>framework de PHP</strong> mais legal do mundo</p>
+		</div>
+		
+		<div class="produtos">
+			<article class="produto row">
+				<div class="span6">
+					<img class="thumbnail" src="http://placehold.it/300" alt="Título do Produto" width="300" height="300" />
+				</div>
+				
+				<div class="span10">
+					<h1 class="span8">Título do Produto</h1>
+					<h2 class="span8">Categoria &ndash; Marca</h2>
+					<p class="price">R$ <span>29</span>,90</p>
+					<p>Jowl reprehenderit qui salami est, rump tail adipisicing sirloin beef. Kielbasa pork incididunt, veniam aute cow sed fugiat leberkäse pork belly deserunt salami ullamco.</p>
+					<p>In ground round consectetur fatback, ut nisi t-bone dolor chuck mollit capicola jerky meatball consequat.</p>
+					<p>Jowl reprehenderit qui salami est, rump tail adipisicing sirloin beef. Kielbasa pork incididunt, veniam aute cow sed fugiat leberkäse pork belly deserunt salami ullamco.</p>
+					<p>In ground round consectetur fatback, ut nisi t-bone dolor chuck mollit capicola jerky meatball consequat.</p>
+					
+					
+					<form target="pagseguro" method="post" action="https://pagseguro.uol.com.br/checkout/checkout.jhtml">
+						<input type="hidden" name="email_cobranca" value="financeiro@assando-sites.com.br" />
+						<input type="hidden" name="tipo" value="CBR" />
+						<input type="hidden" name="moeda" value="BRL" />
+						<input type="hidden" name="encoding" value="UTF-8" />
+						  
+						<input type="hidden" name="item_id" value="12345" />
+						<input type="hidden" name="item_descr" value="Título do Produto" />
+						<input type="hidden" name="item_valor" value="2990" />
+						  
+						<input type="hidden" name="frete" value="0" />
+						<input type="hidden" name="peso" value="0" />
+						  
+						<div class="input-append">
+							<input type="text" class="mini" value="1" name="item_quant" id="quantidade" size="2" />
+							<label for="quantidade" class="add-on">unidade(s)</label>
+						</div>
+						
+						<input type="submit" class="btn success" value="Comprar &raquo;" />
+					</form>
+				</div>
+			</article>			
+		</div>
+		
+		<footer>
+			<p><a href="http://assando-sites.com.br">Assando Sites</a>, curso online de <strong>CakePHP</strong></p>
+			<p class="powered">Powered by <a href="http://cakephp.org">CakePHP</a>&trade;</p>
+		</footer>
+	</div>
+</body>
+</html>
